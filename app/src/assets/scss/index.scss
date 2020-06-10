@@ -1,0 +1,21 @@
+@import './base/variables'; 
+@import './base/section';
+@import './pages/app'; 
+@import './typograph/fonts.scss';
+@import './typograph/typograph'; 
+
+@import './components//navigation';
+@import './components/section'; 
+@import './components/meteor'; 
+@import './components/astronaut'; 
+@import './components/moon';
+@import './components/star'; 
+@import './components/supernova'; 
+
+
+body {
+    background: black;
+    color: white;
+    margin: 0;
+}
+

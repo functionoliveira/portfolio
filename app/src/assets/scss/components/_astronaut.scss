@@ -1,0 +1,22 @@
+.astronaut {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../../img/astronaut.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    animation-name: float;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+    transform-origin: center;
+}
+
+@keyframes float {
+    0% {transform: rotate(45deg) scale(1.2);}
+    50% {transform: rotate(-45deg) scale(0.8);}
+    100% {transform: rotate(45deg) scale(1.2);}
+}

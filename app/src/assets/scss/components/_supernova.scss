@@ -1,0 +1,22 @@
+.supernova {
+    position: relative;
+    width: 100%;
+    height: 100vw;
+
+    &__mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vw;
+        background: rgb(17,17,17);
+        background: radial-gradient(circle, rgba(17,17,17,0) 50%, rgba(17,17,17,1) 60%, rgba(17,17,17,1) 100%);
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        // display: none;
+    }
+}
